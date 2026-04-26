@@ -120,7 +120,7 @@ div
 header
 {
     background-color  : #00BBFF;
-    border-radius :30px 30px 25px 25px;
+    border-radius :10px 10px 8px 8px;
 }
 .smartphone
 {
@@ -169,6 +169,8 @@ section
 {
     background-color:black;
     width:100%;
+    padding-left: 10px;
+    }
 }
 .Coran1
 {
@@ -179,6 +181,7 @@ section
 {
     width: auto;
     margin-left: 2px;
+    padding-left: 15px;
 }
 aside
 
@@ -248,8 +251,9 @@ tbody
 {	
     color: cornsilk;
     font-family: arial,times,cursive,verdana;
-    font-size: 20px;
-    padding: 1px;
+    font-size: 18px;
+    padding: 11px;
+    margin-left:auto;
 }
 footer
 {
@@ -321,12 +325,14 @@ img.img2
 
 .logos
 {
-    height: 50px;
+    height: 58px;
+    padding: 3px;
+    margin-left: 22px;
 }
 a
 {
     font-family: 'Times New Roman', Times, serif;
-    color: rgb(19, 1, 170);
+    color: rgb(130, 190, 245);
     font-size: 18px;
     text-align: left;
 
@@ -386,16 +392,15 @@ article
     margin-left: auto;
     margin-right: auto;
     border-radius: 9px;
-    padding-left: 10px;
-    padding-right: 10px;
-
-}
+    padding: 10px;
+    }
 article:hover
 {
     background-color:rgb(169, 250, 250);
-    color: #000003;
+    color: #00000e;
     font-family: "roboto",Arial, Helvetica, sans-serif,times;
     font-size: 17px;
+    padding: 12px;
 }
 .styl3
 {
@@ -424,8 +429,8 @@ main
 .gold2
 {
     background-color : gold;
-    border-radius : 8px;
-    height : 80px;
+    border-radius : 1px 1px 0px 0px;
+    height : 55px;
 }
 
 .green2
@@ -526,12 +531,13 @@ form
 cite
 {
     text-align: center;
-    margin-left: 40%;
+    margin-left: auto;
 }
 mark
 {
  text-align: center;
- color: black;  
+ color: black;
+ margin: auto;  
 }
 div.font1
 
@@ -657,10 +663,6 @@ div.font1
 .burger-icon.active .line:nth-child(3) {
     transform: rotate(75deg) translate(-5px, -6px);
 }
-
-
-
-
 
 .menu1 {
     display: block;
